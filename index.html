@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Fashionate Bags – Premium curated women's bags. Shop totes, handbags, clutches and more." />
+  <title>Fashionate Bags | Premium Women's Bags</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400&family=Jost:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ░░ LOADER ░░ -->
+  <div class="loader" id="loader">
+    <div class="loader-inner">
+      <span class="loader-brand">Fashionate</span>
+      <div class="loader-bar"><div class="loader-fill"></div></div>
+    </div>
+  </div>
+
+  <!-- ░░ NAVBAR ░░ -->
+  <header class="navbar" id="navbar">
+    <div class="nav-container">
+
+      <a href="#" class="logo" data-cat="All">
+        <div class="logo-icon">
+          <svg viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M6 10L4 28H28L26 10H6Z" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/>
+            <path d="M11 10C11 7.23858 13.2386 5 16 5C18.7614 5 21 7.23858 21 10" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+          </svg>
+        </div>
+        <span class="logo-text">Fashionate<em>Bags</em></span>
+      </a>
+
+      <nav class="nav-links" id="navLinks">
+        <a href="#" class="nav-item active" data-cat="All">All</a>
+        <a href="#" class="nav-item" data-cat="Tote Bags">Tote Bags</a>
+        <a href="#" class="nav-item" data-cat="Handbags">Handbags</a>
+        <a href="#" class="nav-item" data-cat="Shoulder Bags">Shoulder</a>
+        <a href="#" class="nav-item" data-cat="Crossbody Bags">Crossbody</a>
+        <a href="#" class="nav-item" data-cat="Satchel Bags">Satchel</a>
+        <a href="#" class="nav-item" data-cat="Hobo Bags">Hobo</a>
+        <a href="#" class="nav-item" data-cat="Bucket Bags">Bucket</a>
+        <a href="#" class="nav-item" data-cat="Clutch Bags">Clutch</a>
+        <a href="#" class="nav-item" data-cat="Wristlets">Wristlets</a>
+      </nav>
+
+      <button class="burger" id="burger" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+
+    </div>
+  </header>
+
+  <!-- ░░ HERO ░░ -->
+  <section class="hero" id="home">
+    <div class="hero-bg-text">BAGS</div>
+    <div class="hero-content">
+      <div class="hero-left">
+        <div class="hero-tag">
+          <span class="tag-dot"></span>
+          New Season · 2025 Collection
+        </div>
+        <h1 class="hero-title">
+          Carry the<br />
+          <em>Art of</em><br />
+          Elegance.
+        </h1>
+        <p class="hero-desc">
+          Handpicked premium bags from around the world — crafted for women who live with intention. Every style tells a story.
+        </p>
+        <div class="hero-actions">
+          <a href="#collection" class="btn-primary">Explore Collection</a>
+          <a href="#categories" class="btn-ghost">Browse by Style</a>
+        </div>
+        <div class="hero-metrics">
+          <div class="metric">
+            <span class="metric-num">500<sup>+</sup></span>
+            <span class="metric-label">Curated Styles</span>
+          </div>
+          <div class="metric-divider"></div>
+          <div class="metric">
+            <span class="metric-num">4.8<sup>★</sup></span>
+            <span class="metric-label">Avg Rating</span>
+          </div>
+          <div class="metric-divider"></div>
+          <div class="metric">
+            <span class="metric-num">$19<sup>+</sup></span>
+            <span class="metric-label">Starting From</span>
+          </div>
+        </div>
+      </div>
+      <div class="hero-right">
+        <div class="hero-image-frame">
+          <img
+            src="https://images.unsplash.com/photo-1548036328-c9fa89d128fa?w=900&q=85"
+            alt="Fashionate premium bag"
+            class="hero-img"
+          />
+          <div class="hero-badge-float">
+            <span class="badge-label">Most Loved</span>
+            <span class="badge-item">Leather Tote</span>
+            <span class="badge-price">From $89</span>
+          </div>
+          <div class="hero-accent-circle"></div>
+        </div>
+      </div>
+    </div>
+    <div class="hero-scroll-hint">
+      <span>Scroll to discover</span>
+      <div class="scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- ░░ MARQUEE ░░ -->
+  <div class="marquee-strip">
+    <div class="marquee-track">
+      <span>Tote Bags</span><span class="dot">◆</span>
+      <span>Handbags</span><span class="dot">◆</span>
+      <span>Shoulder Bags</span><span class="dot">◆</span>
+      <span>Crossbody</span><span class="dot">◆</span>
+      <span>Satchels</span><span class="dot">◆</span>
+      <span>Hobo Bags</span><span class="dot">◆</span>
+      <span>Bucket Bags</span><span class="dot">◆</span>
+      <span>Clutches</span><span class="dot">◆</span>
+      <span>Wristlets</span><span class="dot">◆</span>
+      <!-- duplicate for infinite loop -->
+      <span>Tote Bags</span><span class="dot">◆</span>
+      <span>Handbags</span><span class="dot">◆</span>
+      <span>Shoulder Bags</span><span class="dot">◆</span>
+      <span>Crossbody</span><span class="dot">◆</span>
+      <span>Satchels</span><span class="dot">◆</span>
+      <span>Hobo Bags</span><span class="dot">◆</span>
+      <span>Bucket Bags</span><span class="dot">◆</span>
+      <span>Clutches</span><span class="dot">◆</span>
+      <span>Wristlets</span><span class="dot">◆</span>
+    </div>
+  </div>
+
+  <!-- ░░ CATEGORIES ░░ -->
+  <section class="section categories-section" id="categories">
+    <div class="section-container">
+      <div class="section-header reveal">
+        <span class="section-eyebrow">Browse by Style</span>
+        <h2 class="section-title">Shop by Category</h2>
+        <p class="section-sub">Find your perfect bag from our curated collections</p>
+      </div>
+      <div class="cat-grid reveal" id="catGrid"></div>
+    </div>
+  </section>
+
+  <!-- ░░ COLLECTION ░░ -->
+  <section class="section collection-section" id="collection">
+    <div class="section-container">
+      <div class="section-header reveal">
+        <span class="section-eyebrow" id="collectionEyebrow">Featured</span>
+        <h2 class="section-title" id="collectionTitle">Premium Collection</h2>
+        <p class="section-sub" id="collectionSub">27 premium styles handpicked for you</p>
+      </div>
+      <div class="products-grid" id="productsGrid"></div>
+      <div class="no-results" id="noResults">
+        <p>No bags found in this category yet.</p>
+        <button class="btn-primary" onclick="filterProducts('All')">View All Bags</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- ░░ FOOTER ░░ -->
+  <footer class="footer">
+    <div class="footer-inner">
+      <div class="footer-brand">
+        <span class="footer-logo">Fashionate<em>Bags</em></span>
+        <p>Your curated destination for premium women's bags. All links are affiliate links — we may earn a small commission at no extra cost to you.</p>
+      </div>
+      <div class="footer-links">
+        <a href="#home">Home</a>
+        <a href="#categories">Categories</a>
+        <a href="#collection">Collection</a>
+      </div>
+      <div class="footer-copy">
+        © 2025 Fashionate Bags · Crafted with passion
+      </div>
+    </div>
+  </footer>
+
+  <!-- ░░ BACK TO TOP ░░ -->
+  <button class="back-top" id="backTop" title="Back to top">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+      <path d="M12 19V5M5 12l7-7 7 7"/>
+    </svg>
+  </button>
+
+  <script src="script.js"></script>
+</body>
+</html>
