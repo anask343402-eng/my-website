@@ -9,10 +9,10 @@
 ════════════════════════════════════ */
 const PRODUCTS = [
   {
-    id: 1, name: 'Top-Handle Bag Adjustable Strap', cat: 'Handbags',
-    price: 35.46, reviews: , stars: 4.0,
-    img: '<a href="https://s.click.aliexpress.com/e/_c4qBK2d1" target="_blank"><img src="//ae01.alicdn.com/kf/S3f921d84f194440b9557e7d2a0ceda74V.jpg_140x140.jpg" /></a>',
-    link: 'https://s.click.aliexpress.com/e/_c4qBK2d1'
+    id: 1, name: 'Minimalist Canvas Weekend Tote', cat: 'Tote Bags',
+    price: 34.99, reviews: 1234, stars: 4.0,
+    img: 'https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=600&q=80',
+    link: 'https://www.amazon.com/s?k=minimalist+canvas+tote+bag&tag=YOUR_TAG'
   },
   {
     id: 2, name: 'Premium Leather Executive Tote', cat: 'Tote Bags',
